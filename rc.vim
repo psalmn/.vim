@@ -41,6 +41,14 @@ nmap <leader>tc :tabclose<cr>
 nmap <leader>tm :tabmove
 nmap <leader>t<leader> :tabnext
 
+" Split buffer navigation
+nnoremap <C-h> <C-w><C-h>
+nnoremap <C-j> <C-w><C-j>
+nnoremap <C-k> <C-w><C-k>
+nnoremap <C-l> <C-w><C-l>
+set splitbelow
+set splitright
+
 " sudo save
 command W w !sudo tee % > /dev/null
 
