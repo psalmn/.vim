@@ -12,6 +12,7 @@ Plug 'airblade/vim-gitgutter'
 Plug 'kien/ctrlp.vim'
 Plug 'maxbrunsfeld/vim-yankstack'
 Plug 'tpope/vim-surround'
+Plug 'tpope/vim-fugitive'
 
 Plug 'vim-scripts/peaksea', { 'do': 'cp colors/peaksea.vim ~/.vim/colors/peaksea.vim' }
 
