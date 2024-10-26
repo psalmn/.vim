@@ -7,6 +7,7 @@ set autoread
 set listchars=tab:▷\ ,
 set so=8 | "8 lines up/down
 set number | set ruler
+set mouse+=a | "Dont select line numbers
 set history=1000
 set showmatch | set mat=2 | "Match brackets, blink 0.2s
 set hid | "Hide abandoned buffers
